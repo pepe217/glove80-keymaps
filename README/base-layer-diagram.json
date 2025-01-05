@@ -7,49 +7,35 @@
       "p": "CHICKLET",
       "a": 7
     },
-    "Home",
-    "End",
-    {
-      "a": 5,
-      "fa": [
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        7
-      ]
-    },
-    "hex\n10\n\n\n\n\nⓐ",
-    "hex\n11\n\n\n\n\nⓑ",
-    "hex\n12\n\n\n\n\nⓒ",
+    "ALT+4",
+    "ALT+3",
+    "ALT+2",
+    "ALT+1",
+    "Page Down",
     {
       "x": 7
     },
-    "hex\n13\n\n\n\n\nⓓ",
-    "hex\n14\n\n\n\n\nⓔ",
-    "hex\n15\n\n\n\n\nⓕ",
-    {
-      "a": 7,
-      "f": 7
-    },
-    "&larr;",
-    "&rarr;"
+    "Page Up",
+    "WIN+1",
+    "WIN+2",
+    "WIN+3",
+    "WIN+4"
   ],
   [
     {
-      "f": 3
+      "p":"SPACE",
+      "a":5,
+      "fa":[1,1,0,0,0,0,1]
     },
-    "Page up",
+    "(1-shot)\n(sticky)\n\n\n\n\nLCTRL+ LSHFT",
     {
       "a": 5,
       "f": 4
     },
-    "!\n1",
-    "@\n2",
-    "#\n3",
     "$\n4",
+    "#\n3",
+    "@\n2",
+    "!\n1",
     "%\n5",
     {
       "a": 4,
@@ -62,30 +48,38 @@
       "a": 5
     },
     "^\n6",
+    ")\n0",
     "&\n7",
     "*\n8",
     "(\n9",
-    ")\n0",
     {
-      "a": 7,
-      "f": 7
+      "p":"SPACE",
+      "fa":[1,1,0,0,0,0,1]
     },
-    "&uarr;"
+    "(1-shot)\n(sticky)\n\n\n\n\nRCTRL+ RSHFT"
   ],
   [
     {
-      "f": 3
+      "a": 7,
+      "f": 3,
+      "p": "CHICKLET"
     },
-    "Page down",
+    ";",
     "B",
     "Y",
-    "O",
-    "U",
     {
-      "a": 5,
-      "f": 4
+      "c": "#D1C4E9",
+      "p": "SPACE"
     },
-    ":\n;",
+    "O\n\n\n\nCursor",
+    {
+      "c": "#cccccc",
+      "p": "CHICKLET",
+      "a": 7,
+      "f": 3
+    },
+    "U",
+    ":",
     {
       "x": 5,
       "a": 7,
@@ -93,16 +87,28 @@
     },
     "X",
     "L",
-    "D",
+    {
+      "c": "#D1C4E9",
+      "p": "SPACE"
+    },
+    "D\n\n\n\nSymbol",
+    {
+      "c": "#cccccc",
+      "p": "CHICKLET",
+      "a": 7,
+      "f": 3
+    },
     "W",
     "V",
     {
-      "f": 7
+      "a": 5,
+      "f": 4
     },
-    "&darr;"
+    "_\n-"
   ],
   [
     {
+      "a": 7,
       "f": 3
     },
     "Z",
@@ -162,25 +168,19 @@
     "Q"
   ],
   [
+    "CTRL B",
     {
-      "p": "SPACE",
       "a": 5,
-      "fa": [
-        1,
-        1
-      ]
-    },
-    "(1-shot)\n(sticky)\n\n\nShift\n\nShift",
-    {
-      "p": "CHICKLET",
       "f": 5
     },
     "\"\n'",
     {
+      "a": 7,
       "f": 4
     },
-    "_\n-",
+    "_",
     {
+      "a": 5,
       "f": 5
     },
     "+\n=",
@@ -199,15 +199,7 @@
     "G",
     "P",
     "F",
-    {
-      "p": "SPACE",
-      "a": 5,
-      "fa": [
-        1,
-        1
-      ]
-    },
-    "(1-shot)\n(sticky)\n\n\nRShift\n\nRShift"
+    "CTRL B"
   ],
   [
     {
@@ -215,6 +207,7 @@
       "x": 4.925,
       "c": "#ffccbc",
       "p": "FLAT",
+      "a": 5,
       "f": 2,
       "w": 1.075,
       "h": 2.7
@@ -284,17 +277,11 @@
     },
     "Escape\n\n\n\nFunction",
     {
-      "c": "#d1c4e9",
-      "a": 5,
-      "fa": [
-        1,
-        1,
-        0,
-        0,
-        1
-      ]
+      "c": "#cccccc",
+      "t": "#000000",
+      "f": 2
     },
-    "(1-shot)\n(sticky)\n\n\nTyping\n\nShift",
+    "Delete",
     {
       "c": "#757575",
       "t": "#EEEEEE",
@@ -308,15 +295,11 @@
     },
     "Lower",
     {
-      "c": "#d1c4e9",
+      "c": "#cccccc",
       "t": "#000000",
-      "a": 5,
-      "fa": [
-        1,
-        1
-      ]
+      "f": 2
     },
-    "(1-shot)\n(sticky)\n\n\nTyping\n\nRShift",
+    "Key Repeat",
     {
       "c": "#D1C4E9",
       "a": 7,
@@ -324,10 +307,11 @@
     },
     "Enter\n\n\n\nSystem",
     {
-      "c": "#d1c4e9",
-      "f": 3
+      "c": "#cccccc",
+      "a": 7,
+      "f": 9
     },
-    "R\n\n\n\nWorld",
+    "&darr;",
     {
       "c": "#cccccc",
       "p": "CHICKLET",
@@ -338,13 +322,14 @@
     ">\n)",
     {
       "a": 7,
-      "f": 3
+      "f": 9
     },
-    "Insert",
+    "&uarr;",
     {
       "c": "#757575",
       "t": "#EEEEEE",
-      "p": "SPACE"
+      "p": "SPACE",
+      "f": 3
     },
     "Magic"
   ],
@@ -376,8 +361,11 @@
       "f": 3,
       "n": true
     },
-    "Back space\n\n\n\nCursor",
-    "Delete\n\n\n\nNumber",
+    "Space\n\n\n\nCursor",
+    {
+      "c": "#D1C4E9"
+    },
+    "Back Space\n\n\n\nNumber",
     {
       "c": "#ffff8d",
       "p": "FLAT",
@@ -402,8 +390,9 @@
     },
     "Tab\n\n\n\nMouse",
     {
-      "n": true
+      "c": "#D1C4E9",
+      "p": "SPACE"
     },
-    "Space\n\n\n\nSymbol"
+    "R\n\n\n\nSymbol"
   ]
 ]
